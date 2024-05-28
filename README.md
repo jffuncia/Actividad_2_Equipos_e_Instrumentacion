@@ -7,11 +7,14 @@ Actividad 2 de la asignatura de Equipos e Instrumentación del master de Ingenie
 - Jesús Fernández Funcia
 ## Hardware
 ### Diagrama de conexiones
+En la imagen inferior se puede observar el diagrama de conexiones de esta práctica
+![Diagrama de conexiones](Diagrama_de_conexiones.png)
+<img src="img/Diagrama_de_conexiones.png" alt="Diagrama de conexiones" />
 ### BOM
 ### Fotografía del circuito
 ## Firmware
 ### Código comentado
 ## Pruebas de Validación
 ### Simulación de wokwi
-En el siguiente [enlace](https://wokwi.com/projects/399113513141451777 "wokwi") se encuentra la simulación del circuito en la plataforma Wokwi.
+Si se pincha en este [enlace](https://wokwi.com/projects/399113513141451777 "wokwi") se dirigirá la simulación del circuito en la plataforma Wokwi.
 ### Pruebas con el circuito
