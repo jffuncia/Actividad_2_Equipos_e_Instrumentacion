@@ -8,8 +8,8 @@ Actividad 2 de la asignatura de Equipos e Instrumentación del master de Ingenie
 ## Hardware
 ### Diagrama de conexiones
 En la imagen inferior se puede observar el diagrama de conexiones de esta práctica
-![Diagrama de conexiones](Diagrama_de_conexiones.png)
-<img src="img/Diagrama_de_conexiones.png" alt="Diagrama de conexiones" />
+
+![Diagrama de conexiones](img/Diagrama_de_conexiones.png)
 ### BOM
 ### Fotografía del circuito
 ## Firmware
