@@ -5,6 +5,7 @@ Actividad 2 de la asignatura de Equipos e Instrumentación del master de Ingenie
 - Javier Luch Sanz
 - Marta Garcia Benzal
 - Jesús Fernández Funcia
+
 ## Hardware
 ### Diagrama de conexiones
 En la imagen inferior se puede observar el diagrama de conexiones de esta práctica
@@ -14,6 +15,8 @@ En la imagen inferior se puede observar el diagrama de conexiones de esta práct
 ### Fotografía del circuito
 ## Firmware
 ### Código comentado
+En la carpeta [code](code "codigo")se encuentra el archivo .ino con el código comentado que se ha empleado para desarrollar esta práctica.
+
 ## Pruebas de Validación
 ### Simulación de wokwi
 Si se pincha en este [enlace](https://wokwi.com/projects/399113513141451777 "wokwi") se dirigirá la simulación del circuito en la plataforma Wokwi.
