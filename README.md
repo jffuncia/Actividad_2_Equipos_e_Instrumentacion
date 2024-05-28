@@ -13,7 +13,7 @@ En la imagen inferior se puede observar el diagrama de conexiones de esta práct
 ![Diagrama de conexiones](img/Diagrama_de_conexiones.png)
 ### BOM
 ### Fotografía del circuito
-En la fotografía inferior se puede observar la reconstrucción del para regular la temperatura.
+En la fotografía inferior se puede observar la reconstrucción del sistema para regular la temperatura.
 
 ![Foto del circuito](img/Foto_del_circuito.jpeg)
 ## Firmware
