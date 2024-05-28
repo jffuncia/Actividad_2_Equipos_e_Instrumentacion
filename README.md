@@ -13,5 +13,5 @@ Actividad 2 de la asignatura de Equipos e Instrumentación del master de Ingenie
 ### Código comentado
 ## Pruebas de Validación
 ### Simulación de wokwi
-En el siguiente [enlace] (https://wokwi.com/projects/398935659513735169 "wokwi") se encuentra la simulación del circuito en la plataforma Wokwi.
+En el siguiente [enlace](https://wokwi.com/projects/399113513141451777 "wokwi") se encuentra la simulación del circuito en la plataforma Wokwi.
 ### Pruebas con el circuito
