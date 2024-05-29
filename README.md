@@ -26,4 +26,4 @@ En la carpeta [code](code "codigo") se encuentra el archivo .ino con el código 
 ### Simulación de wokwi
 Si se pincha en este [enlace](https://wokwi.com/projects/399113513141451777 "wokwi") se dirigirá la simulación del circuito en la plataforma Wokwi.
 ### Pruebas con el circuito
-En la carpeta [Videos](Videos "Videos") se encuentra un video que muestra el funcionamiento de la actividad realizada por este grupo.
+En este [enlace](https://drive.google.com/file/d/1DF55QCHDk_aXHT-DhjxNFKwE1j-dMLz1/view?usp=drive_link "Video") se encuentra un video que muestra el funcionamiento de la actividad realizada por este grupo.
