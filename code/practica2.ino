@@ -50,13 +50,13 @@ int oldButtonValue = LOW;
 int menu = 0;
 
 // Consigna de temperatura
-int consigna = 0;
+int consigna = 10;
 //consigna luz
-int consignaluz=0;
+int consignaluz=10;
 // Histeresis para abrir y cerrar la trampilla
 const float histHisteresis = 1.0; // Histéresis para evitar oscilaciones rápidas
 // Histeresis para iluminosidad
-const float lumHisteresis = 0.2; // Histéresis para evitar oscilaciones rápidas
+const float lumHisteresis = 1.0; // Histéresis para evitar oscilaciones rápidas
 // Valor inicial del botón del joystick
 int oldSelValue = LOW;
 bool menuConsigna = false;
@@ -104,7 +104,8 @@ void loop() {
   // Lectura del segundo sensor de temperatura
   tempC = analogRead(pinLM35); 
   tempC = (5.0 * tempC * 100.0)/1024.0; 
-  Serial.println(tempC); 
+  //Serial.println(tempC); 
+  
   int newButtonValue = digitalRead(BUTTON_PIN);
   if (newButtonValue != oldButtonValue) {
     if (newButtonValue == HIGH) {
@@ -137,9 +138,9 @@ void loop() {
   // LDR
   int analogValue = analogRead(A0);
   float voltage = analogValue / 1024.0 * 5.0;  // Conversión de la lectura analógica a voltaje
-  float resistance = 2000.0 * voltage / (1.0 - voltage / 5.0); // Cálculo de la resistencia del LDR
+  float resistance = 1000.0 * voltage / (1.0 - voltage / 5.0); // Cálculo de la resistencia del LDR
   float lux = pow(RL10 * 1e3 * pow(10, GAMMA) / resistance, (1.0 / GAMMA)); // Conversión de la resistencia a lux
-  //Serial.println(tmpSensor.getTempCByIndex(0));
+  //Serial.println(analogRead(A0));
 
   // Bloque del sensor pIR
   if (pirEnabled) {
@@ -188,6 +189,7 @@ void loop() {
       lcd.setCursor(0, 1);
       lcd.print("Hum:  ");
       lcd.print(humidity);
+      lcd.print("     ");
     }
 
   } else if (menu == 1) {
@@ -214,6 +216,7 @@ void loop() {
       lcd.setCursor(0, 0);
       lcd.print("Lum: ");
       lcd.print(lux);
+      lcd.print("       ");
       lcd.setCursor(0, 1);
       if (pirEnabled) {
         // Hay dos situaciones en las que la cuenta debe iniciarse de nuevo (en 0s):
@@ -262,8 +265,8 @@ void loop() {
   else {
     // No hacer nada
   }
-  // Espera de 300 ms
-  delay(1000);
+  // Espera de 500 ms frecuencia de 0.5 Hz
+  delay(500);
 }
 void abrirTrampilla() {
   // Mueve el servo para abrir la trampilla
