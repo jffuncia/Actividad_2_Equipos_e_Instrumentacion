@@ -12,7 +12,7 @@ En la imagen inferior se puede observar el diagrama de conexiones de esta práct
 
 ![Diagrama de conexiones](img/Diagrama_de_conexiones.png)
 ### BOM (Bill of materials)
-En el fichero .txt [BOM](BOM "Bill of materials") se muestra una tabla con la lista de componentes empleados en este ejercicio, su fabricante y su número de referencia.
+En el fichero .txt [BOM](BOM.txt "Bill of materials") se muestra una tabla con la lista de componentes empleados en este ejercicio, su fabricante y su número de referencia.
 
 ### Fotografía del circuito
 En la fotografía inferior se puede observar la reconstrucción del sistema para regular la temperatura.
